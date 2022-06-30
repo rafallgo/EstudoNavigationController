@@ -32,20 +32,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="choose-wisely-your-starter-uwaki-art cópia" translatesAutoresizingMaskIntoConstraints="NO" id="oqa-WY-u4Y">
-                                <rect key="frame" x="17.5" y="177" width="379" height="542"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="542" id="eRF-9m-fTx"/>
-                                    <constraint firstAttribute="width" constant="379" id="pez-rj-qhJ"/>
-                                </constraints>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="wIg-tZ-Eef">
-                                <rect key="frame" x="69" y="368" width="276" height="67"/>
+                                <rect key="frame" x="69" y="414.5" width="276" height="67"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5u-8c-V2Y">
                                         <rect key="frame" x="0.0" y="0.0" width="76" height="67"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="67" id="dCf-gp-y8V"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="lAI-pC-y0X"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -57,7 +51,7 @@
                                         <rect key="frame" x="100" y="0.0" width="76" height="67"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="67" id="5Fq-Et-cQr"/>
-                                            <constraint firstAttribute="width" constant="76" id="nvo-xr-qd4"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="nvo-xr-qd4"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -69,7 +63,7 @@
                                         <rect key="frame" x="200" y="0.0" width="76" height="67"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="67" id="MbK-sB-ao5"/>
-                                            <constraint firstAttribute="width" constant="76" id="PQi-lo-8zd"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="PQi-lo-8zd"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -78,24 +72,22 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="D5u-8c-V2Y" secondAttribute="bottom" id="YCA-vZ-6zr"/>
-                                    <constraint firstAttribute="height" constant="67" id="dwA-aQ-N94"/>
-                                    <constraint firstItem="D5u-8c-V2Y" firstAttribute="leading" secondItem="wIg-tZ-Eef" secondAttribute="leading" id="nnV-qL-aq8"/>
-                                    <constraint firstItem="D5u-8c-V2Y" firstAttribute="top" secondItem="wIg-tZ-Eef" secondAttribute="top" id="w7b-yj-nL3"/>
-                                    <constraint firstAttribute="width" constant="276" id="wp6-qE-HmW"/>
-                                </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tela" translatesAutoresizingMaskIntoConstraints="NO" id="WZA-JO-oda">
+                                <rect key="frame" x="20" y="88.5" width="374" height="719"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="4oc-LK-T7I"/>
+                                    <constraint firstAttribute="height" constant="719" id="Moy-tf-I0x"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wIg-tZ-Eef" secondAttribute="trailing" constant="69" id="JdV-cY-rgR"/>
-                            <constraint firstItem="oqa-WY-u4Y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JuC-nB-ubI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wIg-tZ-Eef" secondAttribute="bottom" constant="427" id="cuA-fm-8ZL"/>
-                            <constraint firstItem="oqa-WY-u4Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jIU-8r-LZh"/>
-                            <constraint firstItem="wIg-tZ-Eef" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="280" id="kFh-sI-fPH"/>
-                            <constraint firstItem="wIg-tZ-Eef" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="lGj-nL-bYQ"/>
+                            <constraint firstItem="WZA-JO-oda" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CfR-HE-Kxs"/>
+                            <constraint firstItem="wIg-tZ-Eef" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VTv-9O-ucY"/>
+                            <constraint firstItem="wIg-tZ-Eef" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ayO-QE-iZx"/>
+                            <constraint firstItem="WZA-JO-oda" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tSc-MR-88A"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aIl-4V-4nU"/>
@@ -211,7 +203,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="choose-wisely-your-starter-uwaki-art cópia" width="636" height="900"/>
+        <image name="Tela" width="636" height="1212"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
